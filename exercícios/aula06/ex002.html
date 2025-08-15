@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro programa...</title>
+    <title>Meu segundo programa...</title>
     <style>
         body{
             background-color: rgb(119, 119, 255);
-            color: white;
+            color: white; /*Comentário em CSS*/
             font: normal 20pt Arial;
         }
         h1{
@@ -16,12 +16,11 @@
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!--Comentário em HTML-->
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JavaScript?')
-        window.prompt('Qual é o seu nome?')
+        var nome = window.prompt('Qual é o seu nome?') // Caixa que pergunta o seu nome e guarda na variável nome
+        window.alert('É um grande prazer em te conhecer, ' + nome + '!')
     </script>
 </body>
 </html>
