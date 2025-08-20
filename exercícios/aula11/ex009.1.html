@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessafio Aula 11</title>
+</head>
+<body>
+    <h1>
+        Verificação de Passaporte: Desafio Aula 11
+    </h1>
+    <hr>
+    <input type="text" id = 'txt'>
+    <input type="Button" value = 'Verificar' onclick = 'verificar()'>
+    <div id = 'res'>Resultado</div>
+    <script>
+        var txtv = window.document.getElementById('txt')
+        var pais = String(txtv.value)
+        var res = window.document.getElementById('res')
+
+        function verificar() {
+            if (pais === 'Brasil') {
+                res.innerHTML = '<p>Você é brasileiro!</p>'
+            } else {
+                res.innerHTML = '<p>Você é estrangeiro. Que pena...</p>'
+            }
+            res.innerHTML += '<p>Seja bem-vindo.</p>'
+        }
+    </script>
+</body>
+</html>
