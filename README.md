@@ -1,5 +1,5 @@
 # Estudo Introdutório em JavaScript
-Estudando JavaScript pelo curso do canal Curso em Vídeo no Youtube do professor Gustavo Guanabara com patrocínio do Google
+Curso do canal Curso em Vídeo no Youtube do professor Gustavo Guanabara com patrocínio do Google.
 
 ## O Que Aprendi:
 
