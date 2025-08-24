@@ -1,6 +1,9 @@
+# Estudo Introdutório em JavaScript
 Estudando JavaScript pelo curso do canal Curso em Vídeo no Youtube do professor Gustavo Guanabara com patrocínio do Google
 
-Principais Projetos Desenvolvidos no Curso:
+## O Que Aprendi:
+
+## Principais Projetos Desenvolvidos no Curso:
 - Site Com Troca de Tema Dinâmica (Manhã, Tarde e Noite)
   <img src="./fotos-projetos/hora-do-dia.png" alt="Hora do dia" width="600"/>
 - Site Com Verificador de Idade Dinâmico
